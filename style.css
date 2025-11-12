@@ -9,7 +9,7 @@
   --font: 'Poppins', sans-serif;
 }
 
-/* base */
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
@@ -22,7 +22,7 @@ body{
 }
 .container{max-width:var(--max-width); margin:0 auto; padding:20px}
 
-/* header */
+
 .site-header{
   position:sticky; top:0; z-index:100;
   background:rgba(6,6,6,0.85);
@@ -38,36 +38,36 @@ body{
 .nav-list a{color:var(--white); text-decoration:none; padding:8px 10px; border-radius:8px; display:inline-block}
 .nav-list a:hover, .nav-list a.active{background:rgba(201,42,42,0.08); color:var(--accent)}
 
-/* hamburger for mobile */
+
 .hamburger{background:none; border:0; width:40px; height:34px; display:flex; flex-direction:column; justify-content:space-around; padding:4px}
 .hamburger span{display:block; height:3px; background:var(--white); border-radius:2px}
 
-/* hero */
+
 .hero{margin-top:20px; padding:30px; border-radius:var(--radius); background:linear-gradient(135deg, rgba(201,42,42,0.06), rgba(0,0,0,0.45))}
 .display-title{font-size:clamp(1.6rem, 2.8vw, 2.6rem); margin-bottom:12px}
 .lead{opacity:0.9}
 
-/* hero images grid */
+
 .hero-images .hero-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px}
 .hero-grid img{width:100%; height:100%; object-fit:cover; border-radius:10px; box-shadow:0 10px 30px rgba(0,0,0,0.6)}
 
-/* buttons */
+
 .btn-ghost{background:transparent; border:1px solid rgba(255,255,255,0.08); color:var(--white)}
 .btn-danger{background:var(--red); border-color:var(--red); color:#fff}
 .btn-danger:hover{background:var(--accent); border-color:var(--accent)}
 
-/* service cards */
+
 .service-card{background:rgba(255,255,255,0.02); border-radius:10px; border:1px solid rgba(255,255,255,0.03)}
 
-/* portfolio grid */
+
 .gallery-thumb{cursor:pointer; border-radius:10px; transition:transform .25s ease, box-shadow .25s ease}
 .gallery-thumb:hover{transform:scale(1.02); box-shadow:0 12px 40px rgba(0,0,0,0.6)}
 
-/* footer */
+
 .site-footer{padding:20px 0; border-top:1px solid rgba(255,255,255,0.03); color:rgba(255,255,255,0.8)}
 .socials a{color:var(--accent); text-decoration:none}
 
-/* responsive */
+
 @media (max-width: 991px){
   .hero-images{order:-1; margin-bottom:20px}
 }
